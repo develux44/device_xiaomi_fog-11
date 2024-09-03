@@ -16,12 +16,10 @@ ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
 
 # Display
-debug.cpurend.vsync=false
 debug.hwui.skia_atrace_enabled=false
 debug.sf.enable_hwc_vds=0
 debug.sf.auto_latch_unsignaled=0
 debug.sf.latch_unsignaled=1
-ro.surface_flinger.supports_background_blur=0
 
 # CNE
 persist.cne.feature=1
@@ -76,10 +74,6 @@ media.stagefright.thumbnail.prefer_hw_codecs=true
 mmp.enable.3g2=true
 persist.mm.enable.prefetch=true
 ro.config.media_vol_default=10
-
-# Netflix
-ro.netflix.channel=004ee050-1a17-11e9-bb61-6f1da27fb55b
-ro.netflix.signup=1
 
 # Netmgr
 persist.data.netmgrd.qos.enable=true
