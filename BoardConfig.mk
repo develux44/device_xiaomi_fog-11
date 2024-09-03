@@ -52,7 +52,7 @@ TARGET_PROVIDES_AUDIO_EXTNS := true
 USE_CUSTOM_AUDIO_POLICY := 1
 
 # Bluetooth
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/configs/bluetooth/include
+# Nothing here lol
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bengal
