@@ -101,6 +101,16 @@
          -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">M 0,0 H -40 V 49 H 40 V 0 H 0 Z</string>
 
+     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
+     for debouncing the light sensor.  Different constants are used to debounce the light sensor
+     when adapting to brighter or darker environments.  This parameter controls how quickly
+     brightness changes occur in response to an observed change in light level that exceeds the
+     hysteresis threshold. -->
+    <integer name="config_autoBrightnessBrighteningLightDebounce">400</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">400</integer>
+
+
+
     <!-- Whether the display cutout region of the main built-in display should be forced to
          black in software (to avoid aliasing or emulate a cutout that is not physically existent).
     -->
@@ -403,26 +413,6 @@
         <item>500</item>
         <item>500</item>
         <item>500</item>
-    </integer-array>
-    
-    <!-- Array of hysteresis constraint values for brightening, represented as tenths of a
-         percent. The length of this array is assumed to be one greater than
-         config_screenThresholdLevels. The brightening threshold is calculated as
-         screenBrightness * (1.0f + CONSTRAINT_VALUE). When the new screen brightness is higher
-         than this threshold, it is applied. See the config_screenThresholdLevels description for
-         how the constraint value is chosen. -->
-    <integer-array name="config_screenBrighteningThresholds">
-        <item>0</item>
-    </integer-array>
-
-    <!-- Array of hysteresis constraint values for darkening, represented as tenths of a
-         percent. The length of this array is assumed to be one greater than
-         config_screenThresholdLevels. The darkening threshold is calculated as
-         screenBrightness * (1.0f - CONSTRAINT_VALUE). When the new screen brightness is lower than
-         this threshold, it is applied. See the config_screenThresholdLevels description for how
-         the constraint value is chosen. -->
-    <integer-array name="config_screenDarkeningThresholds">
-        <item>0</item>
     </integer-array>
 
     <!-- An array describing the screen's backlight values corresponding to the brightness
