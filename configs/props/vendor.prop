@@ -282,6 +282,7 @@ ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_idle_timer_ms=500
 ro.surface_flinger.set_touch_timer_ms=800
 ro.surface_flinger.use_color_management=true
+debug.sf.phase_offset_threshold_for_next_vsync_ns=6100000
 ro.surface_flinger.vsync_event_phase_offset_ns=2000000
 ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 ro.surface_flinger.wcg_composition_dataspace=143261696
