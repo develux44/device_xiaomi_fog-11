@@ -1,3 +1,9 @@
+# Battery
+power.saving.mode=1
+pm.sleep_mode=1 
+ro.vold.umsdirtyratio=20
+ro.ril.disable.power.collapse=0
+
 # Bluetooth
 persist.bluetooth.disableabsvol=true
 persist.sys.btstack.absvolfeature=false
