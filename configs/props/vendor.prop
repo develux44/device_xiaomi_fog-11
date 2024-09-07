@@ -316,6 +316,7 @@ ro.soc.model=SM6225
 debug.renderengine.backend=skiaglthreaded
 #debug.hwui.renderer=opengl
 renderthread.skia.reduceopstasksplitting=true
+debug.hwui.renderer=skiagl
 
 # Zygote
 zygote.critical_window.minute=10
