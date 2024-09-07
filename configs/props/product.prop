@@ -4,5 +4,8 @@ audio.offload.min.duration.secs=30
 audio.sys.offload.pstimeout.secs=3
 ro.config.vc_call_vol_steps=11
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Radio
 persist.vendor.qti.telephony.vt_cam_interface=2
