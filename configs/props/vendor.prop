@@ -269,6 +269,8 @@ debug.sf.high_fps_early_phase_offset_ns=-4000000
 debug.sf.high_fps_late_app_phase_offset_ns=1000000
 debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
 debug.sf.hw=0
+persist.sys.ui.hw=0
+ro.sf.compbypass.enable=0
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.treat_170m_as_sRGB=1
 ro.surface_flinger.enable_frame_rate_override=false
@@ -314,9 +316,21 @@ ro.soc.model=SM6225
 
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
-#debug.hwui.renderer=opengl
 renderthread.skia.reduceopstasksplitting=true
 debug.hwui.renderer=skiagl
+debug.hwui.use_buffer_age=false
+ro.config.disable_transparency=true
+
+# Disable Gfx accel
+ro.config.avoid_gfx_accel=true
+
+# Bg apps limit
+ro.sys.fw.bg_apps_limit=10
+ro.config.max_starting_bg=2
+persist.sys.purgeable_assets=1
+
+# Low ram overlay
+ro.config.low_ram_overlay=true
 
 # Zygote
 zygote.critical_window.minute=10
