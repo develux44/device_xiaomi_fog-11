@@ -324,8 +324,7 @@ ro.config.disable_transparency=true
 # Disable Gfx accel
 ro.config.avoid_gfx_accel=true
 
-# Bg apps limit
-ro.sys.fw.bg_apps_limit=12
+# Apps limit
 ro.config.max_starting_bg=2
 persist.sys.purgeable_assets=1
 
