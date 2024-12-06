@@ -9,3 +9,6 @@ persist.vendor.qti.telephony.vt_cam_interface=2
 
 # Surface flinger 
 ro.surface_flinger.supports_background_blur=0
+
+# Blur
+persist.sys.sf.disable_blurs=1
