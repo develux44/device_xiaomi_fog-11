@@ -328,8 +328,9 @@ ro.config.avoid_gfx_accel=true
 ro.config.max_starting_bg=2
 persist.sys.purgeable_assets=1
 
-# Low ram overlay
-ro.config.low_ram_overlay=true
-
 # Zygote
 zygote.critical_window.minute=10
+
+# Hwui
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
