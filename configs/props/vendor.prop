@@ -318,6 +318,8 @@ renderthread.skia.reduceopstasksplitting=true
 debug.hwui.renderer=skiagl
 debug.hwui.use_buffer_age=false
 ro.config.disable_transparency=true
+debug.hwui.skia_tracing_enabled=false
+debug.hwui.skia_use_perfetto_track_events=false
 
 # Disable Gfx accel
 ro.config.avoid_gfx_accel=true
@@ -331,4 +333,4 @@ zygote.critical_window.minute=10
 
 # Hwui
 debug.hwui.use_hint_manager=true
-debug.hwui.target_cpu_time_percent=30
+debug.hwui.target_cpu_time_percent=20
