@@ -140,9 +140,6 @@ persist.vendor.quick.charge=1
 ro.crypto.allow_encrypt_override=true
 ro.crypto.volume.filenames_mode=aes-256-cts
 
-# Dalvik
-dalvik.vm.systemuicompilerfilter=speed
-
 # Dex2oat
 dalvik.vm.dex2oat-cpu-set=4,5,6,7
 dalvik.vm.dex2oat-threads=4
