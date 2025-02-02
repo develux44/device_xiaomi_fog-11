@@ -97,9 +97,6 @@ vendor.audio_hal.period_multiplier=3
 vendor.audio_hal.period_size=240
 vendor.voice.path.for.pcm.voip=true
 
-# HW timeout multiplier
-ro.hw_timeout_multiplier=2
-
 # Bluetooth
 bluetooth.device.class_of_device=90,2,12
 bluetooth.hardware.power.idle_cur_ma=7
