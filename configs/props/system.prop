@@ -23,7 +23,7 @@ vendor.camera.aux.packagelist.ext=org.codeaurora.snapcam,com.android.camera,com.
 # Display
 debug.cpurend.vsync=false
 debug.hwui.skia_atrace_enabled=false
-debug.sf.enable_hwc_vds=0
+debug.sf.enable_hwc_vds=1
 debug.sf.auto_latch_unsignaled=0
 debug.sf.latch_unsignaled=1
 ro.surface_flinger.supports_background_blur=0
