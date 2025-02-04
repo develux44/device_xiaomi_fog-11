@@ -2,7 +2,8 @@
 persist.vendor.dpm.feature=11
 
 # Media
-vendor.mm.enable.qcom_parser=16777215
+vendor.mm.enable.qcom_parser=63963135
+persist.mm.enable.prefetch=true
 
 # Telephony
 ro.telephony.sim_slots.count=2
