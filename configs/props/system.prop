@@ -21,7 +21,6 @@ vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.goog
 vendor.camera.aux.packagelist.ext=org.codeaurora.snapcam,com.android.camera,com.google.camera
 
 # Charger
-ro.charger.disable_init_blank=true
 ro.charger.enable_suspend=true
 
 # Display
