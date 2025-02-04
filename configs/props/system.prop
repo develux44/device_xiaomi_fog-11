@@ -127,6 +127,7 @@ ro.lmk.thrashing_limit=65
 ro.lmk.thrashing_limit_decay=30
 ro.lmk.critical_upgrade=false
 ro.lmk.kill_heaviest_task=false
+ro.lmk.use_minfree_levels=true
 
 # Logs
 persist.log.tag.AnalyticsService=S
@@ -156,12 +157,6 @@ ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
 ro.vendor.perf.scroll_opt=1
+
 # Blur
 ro.launcher.blur.appLaunch=0
-# LMKD
-ro.lmk.log_stats=false
-ro.lmk.kill_timeout_ms=100
-ro.lmk.use_minfree_levels=true
-ro.lmk.filecache_min_kb=153600
-ro.lmk.thrashing_limit=30
-ro.lmk.thrashing_limit_decay=50
