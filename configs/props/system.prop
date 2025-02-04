@@ -125,11 +125,8 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 # LMK
 ro.lmk.thrashing_limit=65
 ro.lmk.thrashing_limit_decay=30
-ro.lmk.critical_upgrade=true
-ro.lmk.downgrade_pressure=60
+ro.lmk.critical_upgrade=false
 ro.lmk.kill_heaviest_task=false
-ro.lmk.upgrade_pressure=40
-ro.lmk.stall_limit_critical=40
 
 # Logs
 persist.log.tag.AnalyticsService=S
@@ -145,6 +142,7 @@ persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 persist.log.tag.GRALLOC=S
 persist.log.tag.gralloc4=S
+
 # HWUI
 ro.hwui.texture_cache_size=72
 ro.hwui.layer_cache_size=48
