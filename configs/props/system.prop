@@ -20,9 +20,6 @@ sys.cameratest.cameralevel=1
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.google.camera,com.xiaomi.cameratest
 vendor.camera.aux.packagelist.ext=org.codeaurora.snapcam,com.android.camera,com.google.camera
 
-# Charger
-ro.charger.enable_suspend=true
-
 # Display
 debug.cpurend.vsync=false
 debug.hwui.skia_atrace_enabled=false
