@@ -166,6 +166,7 @@ ro.hwui.text_small_cache_width=1024
 ro.hwui.text_small_cache_height=1024
 ro.hwui.text_large_cache_width=2048
 ro.hwui.text_large_cache_height=1024
-ro.vendor.perf.scroll_opt=0
+ro.vendor.perf.scroll_opt=1
+ro.vendor.perf.scroll_opt.heavy_app=2
 # Blur
 ro.launcher.blur.appLaunch=0
