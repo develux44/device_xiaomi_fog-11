@@ -330,3 +330,17 @@ zygote.critical_window.minute=10
 # Hwui
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=20
+
+# Touch Hax 
+touch.size.scale=1
+touch.size.bias=0
+touch.size.isSummed=0
+touch.pressure.scale=0.001
+touch.distance.calibration=none
+touch.distance.scale=0
+touch.coverage.calibration=box
+touch.gestureMode=spots
+MultitouchSettleInterval=1ms
+MultitouchMinDistance=1px
+TapInterval=1ms
+TapSlop=1px
