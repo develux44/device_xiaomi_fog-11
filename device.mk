@@ -468,6 +468,18 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
 
+# Do not generate libartd.
+PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
+
+# Strip the local variable table and the local variable type table to reduce
+# the size of the system image. This has no bearing on stack traces, but will
+# leave less information available via JDWP.
+PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    dalvik.vm.minidebuginfo=true \
+    dalvik.vm.dex2oat-minidebuginfo=true
+
 # Update engine
 PRODUCT_PACKAGES += \
     update_engine \
