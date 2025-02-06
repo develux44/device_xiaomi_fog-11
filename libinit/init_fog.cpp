@@ -142,4 +142,6 @@ void vendor_load_properties() {
     // SafetyNet workaround
     property_override("ro.oem_unlock_supported", "0");
     property_override("ro.boot.verifiedbootstate", "green");
+    // ART lowmem
+    property_override("ro.config.art_lowmem", "true");
 }
