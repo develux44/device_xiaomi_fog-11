@@ -174,7 +174,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 
 # OTA assert
-TARGET_OTA_ASSERT_DEVICE := fog,rain,wind
+TARGET_OTA_ASSERT_DEVICE := fog|rain|wind
 
 # Platform
 BOARD_VENDOR := xiaomi
