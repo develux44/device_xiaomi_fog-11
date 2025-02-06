@@ -43,6 +43,8 @@ on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
     start vendor.qseecomd
+    write /sys/block/sda/queue/iosched/group_idle 0
+    write /sys/block/sda/queue/iosched/slice_idle 0
 
 on fs
     start hwservicemanager
