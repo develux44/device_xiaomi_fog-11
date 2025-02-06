@@ -250,6 +250,7 @@ persist.vendor.radio.vdp_on_ims_cap=1
 
 # RIL
 vendor.rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so
+persist.cust.tel.eons=1
 
 # Sensors
 persist.vendor.sensors.debug.ssc_qmi_debug=true
